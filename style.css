@@ -9,4 +9,32 @@ body{
 dt{
 	font-weight: bold;
 }
-
+.wrap{
+	width: 80%;
+	margin: auto;
+}
+.card{
+	border: 3px solid grey;
+	border-radius: 17px;
+	width:  40%;
+	height: 500px;
+	padding: 20px;
+	margin: 30px;
+	overflow: auto;
+	float: left;
+}
+.photo{
+	display: block;
+	border: 3px solid grey;
+	border-radius: 17px;
+	margin: auto;
+}
+.dzerelo{
+	background-color: grey;
+	padding: 10px;
+	width: 70px;
+	text-align: center;
+	margin-left: 70%;
+	text-decoration:none;
+	color: white;
+}
