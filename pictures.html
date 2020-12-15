@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kekalo</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+			margin: 0px;
+			padding: 0px;
+		}
+		.container{
+			display: flex;
+			margin-top: 20px;
+		}
+		.photo{
+			flex-basis: 12.5%;
+			height: 300px;
+			transition: ease-in 0.5s;
+			box-shadow: 1px 5px 15px grey;
+			/*width: 400px;*/
+					}
+		.photo:nth-child(1){
+			background-image: url(http://lorempixel.com/output/cats-q-c-400-300-2.jpg);
+		}
+		.photo:nth-child(2){
+			background-image: url(http://lorempixel.com/output/cats-q-c-400-300-3.jpg);
+		}
+		.photo:nth-child(3){
+			background-image: url(http://lorempixel.com/output/cats-q-c-400-300-5.jpg);
+		}
+		.photo:nth-child(4){
+			background-image: url(http://lorempixel.com/output/cats-q-c-400-300-1.jpg);
+		}
+		.photo:nth-child(5){
+			background-image: url(http://lorempixel.com/output/cats-q-c-400-300-4.jpg);
+		}
+		.photo:nth-child(6){
+			background-image: url(http://lorempixel.com/output/cats-q-c-400-300-10.jpg);
+		}
+		.photo:nth-child(7){
+			background-image: url(http://lorempixel.com/output/cats-q-c-400-300-1.jpg);
+		}
+		.photo:nth-child(8){
+			background-image: url(http://lorempixel.com/output/cats-q-c-400-300-4.jpg);
+		}
+		.photo:hover{
+			flex: 1 1 400px;
+			transition: ease-in 0.5s;
+			box-shadow: 1px 5px 30px blue;
+		}
+		@media only screen and (max-width: 500px) {
+			.container{
+				flex-direction: column;
+				justify-content: center;
+			}
+			.hover{
+				transition: none;
+			}
+			.photo{
+				flex: none;
+				transition: none;
+				width: 400px;
+			}
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="photo"></div>
+		<div class="photo"></div>
+		<div class="photo"></div>
+		<div class="photo"></div>
+		<div class="photo"></div>
+		<div class="photo"></div>
+		<div class="photo"></div>
+		<div class="photo"></div>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kekalo</title>
+	<link rel="stylesheet" href="style.css">
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+		*{
+			box-sizing: border-box;
+			margin: 0px;
+			padding: 0px;
+		}
+		a{
+			text-decoration: none;
+			display: block;
+			background-color: purple; 
+			color: white;
+			width: 200px;
+			height: 40px;
+			text-align: center;
+			margin-top: 20%;
+			padding: 5px;
+			border: 0.5px solid mediumvioletred;
+			box-shadow: 1px 5px 15px purple;
+			transition: ease-in 2s;
+			font-family: 'Roboto Mono', monospace;
+
+		}
+		li{
+	list-style-type: none;
+}
+ul{
+	display: flex;
+	justify-content: space-around;
+	
+}
+a:hover{
+	background-color: violet;
+	color: white;
+	transition: ease-in 2s;
+}
+h2{
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	margin-top: 10px;
+	text-shadow: 1px 1px 2px black;
+}
+.wrap{
+	width: 80%;
+	margin: auto;
+}
+.card{
+	border: 3px solid grey;
+	border-radius: 17px;
+	width:  50%;
+	height: 500px;
+	padding: 20px;
+	margin: 30px;
+	overflow: auto;
+	float: left;
+}
+img{
+	display: block;
+	border: 3px solid grey;
+	border-radius: 17px;
+	margin: auto;
+}
+h3{
+	text-align: center;
+	font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+img{
+	width: 270px;
+	height: 190px;
+}
+p{
+	font-family: verdana;
+}
+
+	</style>
+
+</head>
+<body>
+	<h2>Мої наукові інтереси</h2>
+	<ul>
+			<li><a href="#first">Кулінарія</a></li>
+			<li><a href="#second">Робототехніка</a></li>
+			<li><a href="#third">Веброзробка</a></li>
+			<li><a href="#fourth">Штучний інтелект</a></li>
+		</ul>
+		<div  class="wrap">
+			<div class="card" id="first">
+				<h3>Кулінарія</h3>
+				<img src="https://corona-project.com/images/stories/virtuemart/product/konditer7-product.jpg">
+				<p>В кондитерському мистецтві важлива краса, почуття смаку і стилю. Потрібно робити не тільки смачно, але й красиво і ніяк інакше. Тому що коли немає візуального позиву спробувати, то вся робота по винаходу унікального смаку зводиться нанівець. Працюючи в ресторані, важливо розуміти, що кондитерія - це мистецтво. Тут не вийде штампувати одне й те ж, як для кондитерських. Кожен раз потрібно підключати фантазію і навіть інтуїцію, адже в залежності від того, як ляжуть інгредієнти на тарілку - складеться візуальне враження про десерт і про мою роботу в цілому. Тут необхідно відчувати композицію і творити виходячи з того, що є саме зараз.
+
+Знаючи всі базові види бісквітів, тіста і кремів, шеф-кондитер може комбінувати інгредієнти по-різному, модернізувати і видозмінювати десерти, привносити нові елементи або смакові акценти. Більше того, відразу потрібно розуміти, як страва буде втілюватися щодня і, що важливо, у відносно короткі терміни. Адже у нас люди не люблять чекати, вони звикли до швидкого сервісу.
+
+</p>
+			</div>
+			<div class="card" id="second">
+				<h3>Робототехніка</h3>
+				<img src="http://lorempixel.com/400/200/"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore temporibus doloribus laboriosam provident optio molestias earum rerum, eveniet inventore dicta eum, necessitatibus dignissimos voluptate itaque cumque ipsum consequuntur autem</p>
+			</div>
+			<div class="card" id="third">
+				<h3>Веброзробка</h3>
+				<img src="http://lorempixel.com/400/200/">
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore temporibus doloribus laboriosam provident optio molestias earum rerum, eveniet inventore dicta eum, necessitatibus dignissimos voluptate itaque cumque ipsum consequuntur autem</p>
+			</div>
+			<div class="card" id="fourth">
+				<h3>Штучний інтелект</h3>
+				<img src="http://lorempixel.com/400/200/">
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore temporibus doloribus laboriosam provident optio molestias earum rerum, eveniet inventore dicta eum, necessitatibus dignissimos voluptate itaque cumque ipsum consequuntur autem</p>
+			</div>
+		</div>
+	
+</body>
+</html>

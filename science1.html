@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kekalo</title>
+	<link rel="stylesheet" href="style.css">
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+		*{
+			box-sizing: border-box;
+			margin: 0px;
+			padding: 0px;
+		}
+		@media screen and (max-width: 500px) {
+			header{
+				flex-direction: column;
+				justify-content: center;
+				margin: auto;
+			}
+			
+		}
+		a{
+			text-decoration: none;
+			display: block;
+			background-color: purple; 
+			color: white;
+			width: 200px;
+			height: 40px;
+			text-align: center;
+			margin-top: 20%;
+			padding: 5px;
+			border: 0.5px solid mediumvioletred;
+			box-shadow: 1px 5px 15px purple;
+			transition: ease-in 2s;
+			font-family: 'Roboto Mono', monospace;
+			margin: 10px;
+
+		}
+		li{
+	list-style-type: none;
+}
+ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}
+a:hover{
+	background-color: violet;
+	color: white;
+	transition: ease-in 2s;
+}
+h2{
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	margin-top: 10px;
+	text-shadow: 1px 1px 2px black;
+}
+.wrap{
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: auto;
+}
+.card{
+	border: 3px solid grey;
+	border-radius: 17px;
+	width:  350px;
+	height: 410px;
+	padding: 20px;
+	margin: 30px;
+	overflow: auto;
+	float: left;
+	box-shadow: 5px 4px 10px indigo;
+}
+img{
+	display: block;
+	border: 3px solid grey;
+	border-radius: 17px;
+	margin: auto;
+	width: 300px;
+	height: 150px;
+}
+@media screen and (min-width: 501px){
+		header{
+				flex-flow: column wrap;
+			justify-content: space-around;
+			align-content: space-between;
+			}
+	}
+h3{
+	text-align: center;
+	font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+p{
+	font-family: verdana;
+}
+.title{
+	background-color: transparent;
+	transition: none;
+	border: none;
+	box-shadow: none;
+}
+.title:hover{
+	background-color: transparent;
+	transition: none;
+	border: none;
+	box-shadow: none;
+}
+
+	</style>
+
+</head>
+<body id="top">
+	<a class="title"href="index.html">Перейти на головну сторінку</a>
+	<header>
+	<h2>Мої наукові інтереси</h2>
+	<ul>
+			<li><a href="#first">Кулінарія</a></li>
+			<li><a href="#second">Робототехніка</a></li>
+			<li><a href="#third">Веброзробка</a></li>
+			<li><a href="#fourth">Штучний інтелект</a></li>
+		</ul>
+		<div  class="wrap">
+			<div class="card" id="first">
+				<h3>Кулінарія</h3>
+				<img src="https://corona-project.com/images/stories/virtuemart/product/konditer7-product.jpg">
+				<p>В кондитерському мистецтві важлива краса, почуття смаку і стилю. Потрібно робити не тільки смачно, але й красиво і ніяк інакше. Тому що коли немає візуального позиву спробувати, то вся робота по винаходу унікального смаку зводиться нанівець. Працюючи в ресторані, важливо розуміти, що кондитерія - це мистецтво. Тут не вийде штампувати одне й те ж, як для кондитерських. Кожен раз потрібно підключати фантазію і навіть інтуїцію, адже в залежності від того, як ляжуть інгредієнти на тарілку - складеться візуальне враження про десерт і про мою роботу в цілому. Тут необхідно відчувати композицію і творити виходячи з того, що є саме зараз.
+
+Знаючи всі базові види бісквітів, тіста і кремів, шеф-кондитер може комбінувати інгредієнти по-різному, модернізувати і видозмінювати десерти, привносити нові елементи або смакові акценти. Більше того, відразу потрібно розуміти, як страва буде втілюватися щодня і, що важливо, у відносно короткі терміни. Адже у нас люди не люблять чекати, вони звикли до швидкого сервісу.
+
+</p><br><a href="https://life.nv.ua/ukr/lyudi/konditerstvo-tse-mistetstvo-ukrajinskij-shef-konditer-rozpoviv-pro-tvorchist-trendi-ta-vikliki-profesiji-1084088.html">Інформація</a>
+			</div>
+			<div class="card" id="second">
+				<h3>Робототехніка</h3>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Shadow_Hand_Bulb_large.jpg/800px-Shadow_Hand_Bulb_large.jpg"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore temporibus doloribus laboriosam provident optio molestias earum rerum, eveniet inventore dicta eum, necessitatibus dignissimos voluptate itaque cumque ipsum consequuntur autem</p><br><a href="https://uk.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D1%96%D0%BA%D0%B0">Інформація</a>
+			</div>
+			<div class="card" id="third">
+				<h3>Веброзробка</h3>
+				<img src="http://lorempixel.com/400/200/">
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore temporibus doloribus laboriosam provident optio molestias earum rerum, eveniet inventore dicta eum, necessitatibus dignissimos voluptate itaque cumque ipsum consequuntur autem</p><br><a href="https://web-systems.solutions/blog/web-development-stages-standards-projects/">Інформація</a>
+			</div>
+			<div class="card" id="fourth">
+				<h3>Штучний інтелект</h3>
+				<img src="https://ecotech.news/images/news/1908/190829_003.jpg">
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore temporibus doloribus laboriosam provident optio molestias earum rerum, eveniet inventore dicta eum, necessitatibus dignissimos voluptate itaque cumque ipsum consequuntur autem</p><br><a href="https://uk.wikipedia.org/wiki/%D0%A8%D1%82%D1%83%D1%87%D0%BD%D0%B8%D0%B9_%D1%96%D0%BD%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D1%82">Інформація</a>
+			</div>
+		</div>
+	<a href="#top" class="ek">&#8686;</a>
+</header>
+</body>
+</html>
